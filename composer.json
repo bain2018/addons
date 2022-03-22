@@ -1,7 +1,7 @@
 {
-    "name": "bain2018/fastadmin-addon",
+    "name": "bain2018/addons",
     "description": "karsonzhang/fastadmin-addons版本nelexa/zip适配PHP8的调整",
-    "homepage": "https://github.com/bain2018/fastadmin-addon",
+    "homepage": "https://github.com/bain2018/addons",
     "license": "Apache-2.0",
     "version": "1.0",
     "support": {
