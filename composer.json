@@ -1,0 +1,28 @@
+{
+    "name": "bain2018/fastadmin-addon",
+    "description": "karsonzhang/fastadmin-addons版本nelexa/zip适配PHP8的调整",
+    "homepage": "https://github.com/bain2018/fastadmin-addon",
+    "license": "Apache-2.0",
+    "version": "1.0",
+    "support": {
+        "issues": "https://github.com/karsonzhang/fastadmin-addons/issues"
+    },
+    "require": {
+        "php": " ^7.4 || ^8.0",
+        "nelexa/zip": "^4.0.1",
+        "symfony/var-exporter": "v6.0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        },
+        "files": [
+            "src/common.php"
+        ]
+    },
+    "extra": {
+        "think-config": {
+            "addons": "src/config.php"
+        }
+    }
+}
